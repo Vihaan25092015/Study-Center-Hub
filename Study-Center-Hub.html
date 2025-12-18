@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="UFT-8">
+        <meta name="veiwport" content="width=device-width, initial-scale=1.0">
+        <title>Study Center Hub</title>
+        <link rel="icon" type="imagr/x-icon" href="data:image/jpeg;base64,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">
+        <style>
+            button{
+                height: 50px;
+                width: 200px;
+                background-color: blue;
+            }
+            .div1{
+                box-sizing: border-box;
+                border :5px solid black;
+                background-color: cyan;
+                padding: 5px;
+            }
+            button:hover{
+                cursor: pointer;
+                background-color: darkcyan;
+            }
+            .modal {
+                display: none;
+                position: fixed;
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                overflow: auto;
+                background-color: rgba(0, 0, 0, 0.4);
+            }
+            .modal2{
+                display: none;
+                position: fixed;
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                overflow: auto;
+                background-color: rgba(0, 0, 0, 0.4);
+            }
+            .modal3{
+                display: none;
+                position: fixed;
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                overflow: auto;
+                background-color: rgba(0, 0, 0, 0.4);
+            }
+            .modal4{
+                display: none;
+                position: fixed;
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                overflow: auto;
+                background-color: rgba(0, 0, 0, 0.4);
+            }
+            .modal5{
+                display: none;
+                position: fixed;
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                overflow: auto;
+                background-color: rgba(0, 0, 0, 0.4);
+            }
+            .modal6{
+                display: none;
+                position: fixed;
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                overflow: auto;
+                background-color: rgba(0, 0, 0, 0.4);
+            }
+            .modal-content {
+                background-color: aquamarine;
+                margin: 15% auto;
+                padding: 20px;
+                border: 1px solid #888;
+                width: 80%;
+                max-width: 500px;
+            }
+            .modal-content2{
+                background-color: aquamarine;
+                margin: 15% auto;
+                padding: 20px;
+                border: 1px solid #888;
+                width: 80%;
+                max-width: 500px;
+            }
+            .modal-content3{
+                background-color: aquamarine;
+                margin: 15% auto;
+                padding: 20px;
+                border: 1px solid #888;
+                width: 80%;
+                max-width: 500px;
+            }
+            .modal-content4{
+                background-color: aquamarine;
+                margin: 15% auto;
+                padding: 20px;
+                border: 1px solid #888;
+                width: 80%;
+                max-width: 500px;
+            }
+            .modal-content5{
+                background-color: aquamarine;
+                margin: 15% auto;
+                padding: 20px;
+                border: 1px solid #888;
+                width: 80%;
+                max-width: 500px;
+            }
+            .modal-content6{
+                background-color: aquamarine;
+                margin: 15% auto;
+                padding: 20px;
+                border: 1px solid #888;
+                width: 80%;
+                max-width: 500px;
+            }
+            .close {
+                color: red;
+                float: right;
+                font-size: 28px;
+                font-weight: bold;
+                cursor: pointer;
+            }
+            .close2{
+                color: red;
+                float: right;
+                font-size: 28px;
+                font-weight: bold;
+                cursor: pointer;
+            }
+            .close3{
+                color: red;
+                float: right;
+                font-size: 28px;
+                font-weight: bold;
+                cursor: pointer;
+            }
+            .close4{
+                color: red;
+                float: right;
+                font-size: 28px;
+                font-weight: bold;
+                cursor: pointer;
+            }
+            .close5{
+                color: red;
+                float: right;
+                font-size: 28px;
+                font-weight: bold;
+                cursor: pointer;
+            }
+            .close6{
+                color: red;
+                float: right;
+                font-size: 28px;
+                font-weight: bold;
+                cursor: pointer;
+            }
+            .close:hover,.close:focus {
+                color: darkred;
+                text-decoration: none;
+                cursor: pointer;
+            }
+            .close2:hover,.close2:focus {
+                color: darkred;
+                text-decoration: none;
+                cursor: pointer;
+            }
+            .close3:hover,.close3:focus {
+                color: darkred;
+                text-decoration: none;
+                cursor: pointer;
+            }
+            .close4:hover,.close4:focus {
+                color: darkred;
+                text-decoration: none;
+                cursor: pointer;
+            }
+            .close5:hover,.close5:focus {
+                color: darkred;
+                text-decoration: none;
+                cursor: pointer;
+            }
+             .close6:hover,.close6:focus {
+                color: darkred;
+                text-decoration: none;
+                cursor: pointer;
+            }
+            body{
+                padding-top: 150px;
+                background-color: rgb(151, 192, 227);
+            }
+            .head1{
+                text-align: left;
+                text-decoration: black;
+            }
+            header {
+                position: fixed;
+                top: 0;
+                text-align: center;
+                width: 98.9%;
+                background-color: rgb(30, 0, 255);
+                padding: 15px;
+                box-sizing: border-box;
+                border-bottom: 5px solid black;
+            }
+            a{
+                display: inline-block;
+            }
+            a:last-child {
+                margin-right: 0;
+            }
+            .link {
+                display: block;
+                background-color: goldenrod;
+                border: 5px solid black;
+                padding: 15px;
+                margin: 5px;
+                color: green;
+                text-decoration: none;
+                text-align: center;
+            }
+            a:link, a:visited {
+                color: black;
+            }
+            .link:hover {
+                background-color: darkgoldenrod;
+                box-shadow: gray;
+            }
+            .container {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+                gap: 20px;
+            }
+            .nav1{
+                box-sizing: border-box;
+                border: 5px solid black;
+                background-color: cadetblue;
+                padding: 5px;
+            }
+            .link1{
+                box-sizing: border-box;
+                border: 3px solid black;
+                background-color: burlywood;
+                text-decoration: none;
+            }
+            html{
+                scroll-behavior: smooth;
+            }
+        </style>
+    </head>
+    <body>
+        <header style="text-align: center; background-color: rgb(30, 0, 255); padding: 15px;">
+            <h1>Study Center Hub</h1>
+        <nav style="text-align: center; background-color: black;">
+            <div class="container">
+                <div class="link">
+                    <a href="#Intoduction">Intoduction</a>
+                </div>
+                <div class="link">
+                    <a href="#Why">Why to study?</a>
+                </div>
+                <div class="link">
+                    <a href="#Benifits">Benifits of study?</a>
+                </div>
+                <div class="link">
+                    <a href="#Tip">Tricks to study easily</a>
+                </div>
+                <div class="link">
+                    <a href="#Credits">Credits</a>
+                </div>
+                <div class="link">
+                    <a href="#Summary">Summary</a>
+                </div>
+            </div>
+        </nav>
+        </header>
+        <article>
+            <center>
+               <nav class="nav1">
+                    <h2>My Other sites</h2>
+                        <a class="link1" href="Vihaan Keyboard.html" target="_blank">Keyboard</a>
+                        <a class="link1" href="Vihaan Calculator.html" target="_blank">Calculator</a>
+                        <a class="link1" href="Vihaan Button-1.html" target="_blank">My Introduction</a>
+                        <a class="link1" href="Vihaan Optgroup-1.html" target="_blank">Optgroups</a>
+                        <a class="link1" href="Fun Prank.html" target="_blank">Buttons</a>
+</nav>
+            </center>
+            <div class="div1">
+            <h1 class="head1" id="Introduction">Introduction to study</h1>
+            <p>Study is some thing that makes you educated and helps in having a career. This helps
+                to get a job and many other things.
+            </p>
+            <h3>Here are some diffrent streams</h3>
+            <button class="button1" id="openModalBtn">Commerse</button>
+            <div id="myModal" class="modal">   
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h2 class="head2">Commerse</h2>
+                    <p class="para2">
+                        A stream for business and maketing.<br>
+                        Subjects - Economics, Marketing, etc.
+                    </p>
+                </div>
+            </div>
+            <button class="button2" id="openModalBtn2">Science</button>
+            <div id="myModal2" class="modal2">   
+                <div class="modal-content2">
+                    <span class="close2">&times;</span>
+                    <h2 class="head2">Science</h2>
+                    <p class="para2">
+                        A stream to study engineering or to be a doctor<br>
+                        Subjects - Mathematics ,Phisics ,Chemestry ,Biology.<br>
+                        (Further divided in 2 parts as choice - Option 1 - Mathematics ,Physics ,Chemestry Option 2 - Biology)
+                    </p>
+                </div>
+            </div>
+            <button class="button3" id="openModalBtn3">Arts</button>
+            <div id="myModal3" class="modal3">   
+                <div class="modal-content3">
+                    <span class="close3">&times;</span>
+                    <h2 class="head2">Arts</h2>
+                    <p class="para2">
+                        A stream to study about Social life and land forms<br>
+                        Arts is called Social Studies. Subjects - Geography, Civics, History<br>
+                        Different subjects are for different carees.
+                    </p>
+                </div>
+            </div>
+            <h3>Jobs after these stream</h3>
+            <button class="button4" id="openModalBtn4">Jobs after Commerse</button>
+            <div id="myModal4" class="modal4">   
+                <div class="modal-content4">
+                    <span class="close4">&times;</span>
+                    <h2 class="head2">Jobs after Commerse</h2>
+                    <p class="para2">
+                        Jobs after Commerse-<br>
+                    -- 1:Business<br>
+                    -- 2:Marketing<br>
+                    -- 3:Salseman
+                    </p>
+                </div>
+            </div>
+            <button class="button5" id="openModalBtn5">Jobs after Science</button>
+            <div id="myModal5" class="modal5">   
+                <div class="modal-content5">
+                    <span class="close5">&times;</span>
+                    <h2 class="head2">Jobs after Science</h2>
+                    <p class="para2">
+                        Science-<br>
+                        ---1:Jobs after Mathematics, Chemestry, Physics-<br>
+                        --A:Engeenering<br>
+                        --B:Data & Finance<br>
+                        --C:Tech<br>
+                        ---2:Jobs after Biology-<br>
+                        --A:Doctor<br>
+                        --B:Research & Science in Microbiology
+                    </p>
+                </div>
+                </div>
+            <button class="button6" id="openModalBtn6">Jobs after Arts</button>
+            <div id="myModal6" class="modal6">   
+                <div class="modal-content6">
+                    <span class="close6">&times;</span>
+                    <h2 class="head2">Jobs after Arts</h2>
+                    <p class="para2">
+                        Jobs after Arts-<br>
+                        --A:Media<br>
+                        --B:Digital Marketing<br>
+                        --C:Law
+                    </p>
+                </div>
+            </div>
+            </div>
+        </article>
+        <script>
+            var modal = document.getElementById("myModal");
+            var btn = document.getElementById("openModalBtn");
+            var span = document.getElementsByClassName("close")[0];
+            btn.onclick = function() {
+            modal.style.display = "block";
+            }
+            span.onclick = function() {
+            modal.style.display = "none";
+            }
+            window.onclick = function(event) {
+                if (event.target == modal) {
+                modal.style.display = "none";
+                }
+            }
+            var modal2 = document.getElementById("myModal2");
+            var btn2 = document.getElementById("openModalBtn2");
+            var span2 = document.getElementsByClassName("close2")[0];
+            btn2.onclick = function() {
+            modal2.style.display = "block";
+            }
+            span2.onclick = function() {
+            modal2.style.display = "none";
+            }
+            window.onclick = function(event) {
+                if (event.target == modal) {
+                modal2.style.display = "none";
+                }
+            }
+            var modal3 = document.getElementById("myModal3");
+            var btn3 = document.getElementById("openModalBtn3");
+            var span3 = document.getElementsByClassName("close3")[0];
+            btn3.onclick = function() {
+            modal3.style.display = "block";
+            }
+            span3.onclick = function() {
+            modal3.style.display = "none";
+            }
+            window.onclick = function(event) {
+                if (event.target == modal) {
+                modal3.style.display = "none";
+                }
+            }
+            var modal4 = document.getElementById("myModal4");
+            var btn4 = document.getElementById("openModalBtn4");
+            var span4 = document.getElementsByClassName("close4")[0];
+            btn4.onclick = function() {
+            modal4.style.display = "block";
+            }
+            span4.onclick = function() {
+            modal4.style.display = "none";
+            }
+            window.onclick = function(event) {
+                if (event.target == modal) {
+                modal4.style.display = "none";
+                }
+            }
+            var modal5 = document.getElementById("myModal5");
+            var btn5 = document.getElementById("openModalBtn5");
+            var span5 = document.getElementsByClassName("close5")[0];
+            btn5.onclick = function() {
+            modal5.style.display = "block";
+            }
+            span5.onclick = function() {
+            modal5.style.display = "none";
+            }
+            window.onclick = function(event) {
+                if (event.target == modal) {
+                modal5.style.display = "none";
+                }
+            }
+            var modal6 = document.getElementById("myModal6");
+            var btn6 = document.getElementById("openModalBtn6");
+            var span6 = document.getElementsByClassName("close6")[0];
+            btn6.onclick = function() {
+            modal6.style.display = "block";
+            }
+            span6.onclick = function() {
+            modal6.style.display = "none";
+            }
+            window.onclick = function(event) {
+                if (event.target == modal) {
+                modal6.style.display = "none";
+                }
+            }
+        </script>
+        <noscript>Javascript is not applicable in your device</noscript>
+    </body>
+</html>
